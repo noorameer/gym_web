@@ -1,0 +1,8 @@
+* Use 'pnpm create vite' to creat
+
+to run:
+cd gym
+pnpm install
+pnpm run dev
+
+

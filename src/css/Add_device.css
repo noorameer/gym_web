@@ -1,0 +1,86 @@
+#img_device {
+                        border-radius: 50%;
+                        width: 200px;
+                        margin-right: 500px;
+
+}
+
+#order_device form .box-container .box .inputBox input,
+#order_device form .box-container .box .inputBox textarea {
+                        width: 50%;
+                        margin: 1rem 0;
+                        padding: 1.2rem 1.4rem black;
+                        font-size: 1.7rem;
+                        color: var(--black);
+                        border: var(--border);
+                        border-radius: 15px;
+                        height: 50px;
+}
+
+#order_device form {
+                        margin-right: 300px;
+                        margin-top: 10px;
+                        box-shadow: none;
+}
+
+#btn3 {
+                        background: #34484F;
+                        border: 15px;
+                        border-radius: 20px;
+                        color: #fff;
+                        margin-right: 50px;
+                        width: 200px;
+                        height: 40px;
+}
+
+@media (max-width:450px) {
+
+                        html {
+                                                font-size: 50%;
+                        }
+
+                        .home .slide .content h3 {
+                                                font-size: 3rem;
+                        }
+
+                        #img_device {
+                                                border-radius: 50%;
+                                                /* margin: 5px; */
+                                                width: 150px;
+                                                margin-right: 100px;
+
+                        }
+
+                        #btn3 {
+                                                background: #34484F;
+                                                border: 15px;
+                                                border-radius: 20px;
+                                                color: #fff;
+                                                /* margin-right: 80px; */
+                                                width: 200px;
+                        }
+
+                        h1 {
+                                                /* margin-right: 50px; */
+                                                font-size: 20px;
+                                                margin-top: 10px;
+                                                text-align: center;
+                        }
+
+                        a {
+                                                margin-right: 70px;
+                                                font-size: 16px;
+                        }
+
+                        #order_device form .box-container .box .inputBox input,
+                        #order_device form .box-container .box .inputBox textarea {
+                                                width: 100%;
+
+                        }
+
+                        #order_device form {
+                                                margin-right: 0px;
+                                                /* margin-top: 10px; */
+                                                box-shadow: none;
+                        }
+}

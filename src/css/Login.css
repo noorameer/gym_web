@@ -1,0 +1,82 @@
+* {
+                        font-family: 'Cairo', sans-serif;
+}
+
+#log {
+                        position: relative;
+                        padding-right: 40%;
+                        background-color: white;
+                        width: 400px;
+                        height: 200px;
+                        padding: 10px;
+                        margin: 5% auto;
+                        border-radius: 5px;
+}
+
+#imgg {
+                        width: 400px;
+                        background: #c8c8c8;
+}
+
+#button {
+                        margin-bottom: 10px;
+                        width: 80%;
+                        height: 40px;
+                        margin: 10% auto auto;
+                        display: block;
+                        border-radius: 15px;
+                        border: 0;
+                        padding: 5px;
+                        cursor: pointer;
+                        color: white;
+                        font-weight: 600px;
+                        background: linear-gradient(97.28deg, #FABB18 -8.15%, #53525c 106.21%, #ababb1 106.1%);
+
+
+}
+
+#button:hover {
+                        background: #c8ab60;
+}
+
+
+#h1 {
+                        margin-top: 40px;
+                        font-size: 20px;
+                        text-align: left;
+}
+
+p {
+                        margin-right: 7%;
+                        margin-bottom: 5px;
+                        color: #060606;
+                        text-align: right;
+}
+
+a {
+                        margin-right: 7%;
+                        margin-bottom: 5px;
+}
+
+.text {
+                        position: absolute;
+                        color: #485460;
+                        font-weight: 100px;
+                        font-size: 15px;
+                        bottom: 20px;
+                        left: 30%;
+                        right: 30%;
+
+}
+
+input {
+                        width: 80%;
+                        height: 40px;
+                        margin: 0 auto;
+                        display: block;
+                        padding: 2px 10px;
+                        border-radius: 15px;
+                        border: 1px solid #c8c8c8;
+                        outline: none;
+
+}

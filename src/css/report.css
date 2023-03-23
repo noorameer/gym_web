@@ -1,0 +1,250 @@
+/*...............Table Starts....................*/
+body {
+                        background-color: #eee;
+                        /* width: 70%; */
+                        right: 0;
+                        /* margin-right: 25%; */
+                        /* margin-top: 5%; */
+
+}
+
+#btnn {
+                        background: #34484F;
+                        border: 15px;
+                        border-radius: 10px;
+                        color: #fff;
+                        margin-right: 80px;
+                        width: 100px;
+                        height: 40px;
+}
+
+#sbtn {
+                        background: #769695;
+                        border: 15px;
+                        border-radius: 10px;
+                        color: #fff;
+                        margin-right: 30px;
+                        margin-top: 10px;
+                        width: 100px;
+                        height: 40px;
+}
+
+
+.table_custom_2 {
+                        background-color: #fff;
+                        width: 400px;
+                        height: 200px;
+                        align-items: center;
+                        border: 1px solid #1e1e1e;
+                        overflow: hidden;
+                        border-radius: 20px;
+                        /* margin-left: 20px; */
+
+
+}
+
+.table_custom_2 td:before {
+                        text-align: center;
+                        content: attr() " ";
+                        /* width: 6.5em; */
+                        width: 8em;
+                        display: inline-block;
+                        /* color: #b7b7b7; */
+                        /* color: #cd2323; */
+}
+
+.table_custom_2 th,
+.table_custom_2 td {
+                        display: table-cell;
+                        text-align: center;
+                        height: 80px;
+
+}
+
+#lab {
+                        display: none;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+.topnav {
+                        overflow: hidden;
+                        background-color: #F2F2F2;
+                        margin: 0;
+                        display: block;
+}
+
+#myTopnav {
+
+                        display: block;
+}
+
+.topnav a {
+                        float: right;
+                        display: inline;
+                        color: #0b0b0b;
+                        text-align: center;
+                        padding: 0;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                        font-size: 17px;
+                        border-radius: 15%;
+}
+
+.topnav a:hover {
+                        background-color: #FABB18;
+                        color: black;
+}
+
+.topnav a.active {
+                        background-color: #FABB18;
+                        color: white;
+}
+
+.topnav .icon {
+                        display: none;
+}
+
+a {
+                        margin-right: 10px;
+                        font-size: 16px;
+}
+
+.fillter {
+
+                        margin-right: 200px;
+                        margin-left: 200px;
+}
+
+/*.....................Media Queries starts.........*/
+@media (max-width: 700px) {
+
+                        .table_custom_2 th,
+                        .table_custom_2 td {
+                                                display: inherit;
+                        }
+
+                        tr:nth-child(even) {
+                                                background-color: #dddddd;
+                        }
+
+                        .table_custom_2 td:before {
+                                                /* content: attr(data-th) ": "; */
+                                                width: 6.5em;
+                                                display: inline-block;
+                                                color: #b7b7b7;
+                        }
+
+                        .table_custom_2 {
+                                                border: 0px;
+                        }
+
+                        .table_custom_2 tr {
+                                                background-color: #fff;
+                                                border: 1px solid #eee;
+                                                display: block;
+                                                margin-bottom: 15px;
+                                                box-shadow: 0 1px 5px -3px rgb(164, 164, 164);
+                        }
+
+                        .table_custom_2 tr td {
+                                                padding: 4px 10px !important;
+                        }
+
+                        .table_custom_2 tbody tr td:first-child:before {
+                                                padding-left: 0;
+                                                content: '';
+                                                width: 0;
+                        }
+
+                        .table_custom_2 tbody tr td:first-child {
+                                                font-family: OpenSans-Semibold;
+                                                color: #217589;
+                                                font-size: 16px;
+                        }
+
+                        .table_custom_1.checkbox_table thead tr th:first-child {
+                                                display: block;
+                                                padding-left: 15px;
+                        }
+
+                        .table_custom_1.checkbox_table thead tr th,
+                        .table_custom_2 thead {
+                                                display: none;
+                        }
+
+                        .checkbox_table thead {
+                                                display: block !important;
+                        }
+
+                        #myTopnav {
+
+                                                display: none;
+                        }
+
+                        .table_custom_2 {
+                                                width: 350px;
+                                                height: 100px;
+                        }
+
+                        #btnn {
+                                                background: #34484F;
+                                                border: 15px;
+                                                border-radius: 10px;
+                                                color: #fff;
+                                                margin-right: 130px;
+                                                width: 100px;
+                                                height: 40px;
+                        }
+
+                        #sbtn {
+                                                display: inline;
+                                                background: #769695;
+                                                border: 15px;
+                                                border-radius: 10px;
+                                                color: #fff;
+                                                margin-right: 80px;
+                                                margin-top: 10px;
+                                                width: 200px;
+                                                height: 40px;
+                        }
+
+                        #lab {
+                                                display: block;
+                        }
+}
+
+@media (max-width:600px) {
+
+                        .table_custom_2 tr,
+                        .table_custom_2 td {
+                                                display: block;
+                        }
+
+                        .table_custom_2 tbody tr td:first-child {
+                                                color: #217589;
+                                                font-size: 16px;
+                        }
+
+                        .table_custom_2 thead {
+                                                display: none;
+                        }
+
+
+}
+
+@media (min-width: 480px) {
+
+                        .table_custom_2 td:before {
+                                                display: none;
+                        }
+
+                        .table_custom_2 th:first-child,
+                        .table_custom_2 td:first-child {
+                                                padding-left: 15px;
+                        }
+
+                        .table_custom_2 th:last-child,
+                        .table_custom_2 td:last-child {
+                                                padding-right: 0;
+                        }
+}

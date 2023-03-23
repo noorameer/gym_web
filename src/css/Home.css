@@ -1,0 +1,242 @@
+/*...............Table Starts....................*/
+
+.table_custom_1 {
+                        background-color: #fff;
+                        width: 100%;
+                        height: 100px;
+                        border: 1px solid #1e1e1e;
+                        overflow: hidden;
+                        border-radius: 20px;
+
+
+}
+
+
+
+tr:nth-child(even) {
+                        background-color: #dddddd;
+}
+
+.table_custom_1 td {
+                        display: block;
+
+
+}
+
+.table_custom_1 th,
+.table_custom_1 td {
+                        display: table-cell;
+                        text-align: center;
+                        height: 80px;
+
+}
+
+.table_custom_1,
+.custom_table {
+                        margin-right: 80px;
+                        width: 80%;
+}
+
+.table_custom_1 thead tr th,
+.custom_table tr th {
+
+                        font-family: opensans-Bold;
+                        font-size: 20px;
+                        padding: 5px 6px;
+}
+
+.table_custom_1 tbody tr td input {
+                        width: 20px;
+}
+
+.table_custom_1 tbody tr td {
+                        border-bottom: 1px solid #e0e0e0;
+                        color: #414042;
+                        font-family: opensans-regular;
+                        font-size: 16px;
+                        padding: 8px 6px;
+                        word-break: break-all;
+}
+
+.table_custom_1 tbody tr td.table_secondary_text {
+                        font-size: 10px;
+                        color: #999999;
+}
+
+.table_custom_1 tr td:first-child {
+                        padding-left: 15px;
+}
+
+.table_custom_1 tr td:last-child,
+.table_custom_1 tr th:last-child {
+                        padding-right: 15px;
+}
+
+.table_custom_1 tr.selected td {
+                        background: #FAFAFA;
+}
+
+/* .table_custom_1 .btn {
+                        display: inline-block;
+} */
+
+.table_custom_1 .table_icon i {
+                        color: #878787;
+                        font-size: 14px;
+                        position: relative;
+                        top: 3px;
+}
+
+.table_custom_1 .table_icon:hover,
+.table_custom_1 .table_icon .table_icon:focus {
+                        text-decoration: none;
+}
+
+.table_custom_1 .badge {
+                        margin-top: -3px;
+                        margin-left: 4px;
+}
+
+.table_custom_1 thead tr th input {
+                        font-size: 12px;
+}
+
+.table_custom_1 .table_custom_1 {
+                        border: medium none;
+}
+
+.table_custom_1 tbody tr td i.indicator {
+                        margin-right: 50px;
+                        font-size: 8px;
+}
+
+tr td img {
+                        border-radius: 50%;
+                        /* margin: 5px; */
+                        width: 40px;
+
+}
+
+td button {
+                        background-color: #769695;
+                        border: 0;
+                        border-radius: 10px;
+                        margin: 2px;
+                        height: 30px;
+                        width: 100px;
+}
+
+td button a {
+                        color: #fff;
+                        /* text-align: center; */
+                        font-size: 14px;
+                        margin-right: 0;
+}
+
+#aa {
+                        margin-right: 90px;
+}
+
+#img_device {
+                        border-radius: 50%;
+                        width: 100px;
+                        margin-right: 400px;
+}
+
+/*.....................Media Queries starts.........*/
+@media (max-width: 700px) {
+
+                        .table_custom_1 th,
+                        .table_custom_1 td {
+                                                display: inherit;
+                        }
+
+                        tr:nth-child(even) {
+                                                background-color: #dddddd;
+                        }
+
+                        .table_custom_1 td:before {
+                                                /* content: attr(data-th) ": "; */
+                                                width: 6.5em;
+                                                display: inline-block;
+                                                color: #b7b7b7;
+                        }
+
+                        .table_custom_1 {
+                                                border: 0px;
+                        }
+
+                        .table_custom_1 tr {
+                                                background-color: #fff;
+                                                border: 1px solid #eee;
+                                                display: block;
+                                                margin-bottom: 15px;
+                                                box-shadow: 0 1px 5px -3px rgb(164, 164, 164);
+                        }
+
+                        .table_custom_1 tr td {
+                                                padding: 4px 10px !important;
+                        }
+
+                        .table_custom_1 tbody tr td:first-child:before {
+                                                padding-left: 0;
+                                                content: '';
+                                                width: 0;
+                        }
+
+                        .table_custom_1 tbody tr td:first-child {
+                                                font-family: OpenSans-Semibold;
+                                                color: #217589;
+                                                font-size: 16px;
+                        }
+
+                        .table_custom_1.checkbox_table thead tr th:first-child {
+                                                display: block;
+                                                padding-left: 15px;
+                        }
+
+                        .table_custom_1.checkbox_table thead tr th,
+                        .table_custom_1 thead {
+                                                display: none;
+                        }
+
+                        .checkbox_table thead {
+                                                display: block !important;
+                        }
+}
+
+@media (max-width:600px) {
+
+                        .table_custom_1 tr,
+                        .table_custom_1 td {
+                                                display: block;
+                        }
+
+                        .table_custom_1 tbody tr td:first-child {
+                                                color: #217589;
+                                                font-size: 16px;
+                        }
+
+                        .table_custom_1 thead {
+                                                display: none;
+                        }
+
+
+}
+
+@media (min-width: 480px) {
+
+                        .table_custom_1 td:before {
+                                                display: none;
+                        }
+
+                        .table_custom_1 th:first-child,
+                        .table_custom_1 td:first-child {
+                                                padding-left: 15px;
+                        }
+
+                        .table_custom_1 th:last-child,
+                        .table_custom_1 td:last-child {
+                                                padding-right: 0;
+                        }
+}
